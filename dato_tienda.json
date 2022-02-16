@@ -1,0 +1,134 @@
+{
+  "productos": [
+    {
+      "id":1,
+      "nombre": "nueva guitarra",
+      "descripcion": "guitarra electrica",
+      "img": "guitar0.jpg",
+      "precio": 0,
+      "cantidad": 34
+    },
+    { 
+      "id":2,
+      "nombre": "guitarra2",
+      "descripcion": "otra guitarra",
+      "img": "guitar01.jpg",
+      "precio": "120",
+      "cantidad": "13"
+    },
+    {
+      "id":3,
+      "nombre": "asdf",
+      "descripcion": "asdf",
+      "img": "icons8-user-645.png",
+      "precio": "3",
+      "cantidad": "4"
+    }
+  ],
+  "clientes": [
+    {
+      "nombre": "Juan",
+      "telefono": 65765667
+    },
+    {
+      "nombre": "Luis",
+      "telefono": "6565344324"
+    },
+    {
+      "nombre": "Lucia",
+      "telefono": "6453543324"
+    },
+    {
+      "nombre": "Tomas",
+      "telefono": "343423424"
+    }
+  ],
+  "ventas": [
+    {
+      "nombre": "Juan",
+      "fecha": "12-01-2021",
+      "productos": [
+        {
+          "producto": "boli",
+          "cantidad": 5,
+          "precio": 1.2
+        },
+        {
+          "producto": "lapiz",
+          "cantidad": 3,
+          "precio": 1
+        }
+      ]
+    },
+    {
+      "nombre": "Juan",
+      "fecha": "25-01-22",
+      "productos": [
+        {
+          "producto": "lapiz",
+          "cantidad": 1,
+          "precio": 1.5
+        }
+      ]
+    },
+    {
+      "nombre": "Juan",
+      "fecha": "25-01-22",
+      "productos": [
+        {
+          "producto": "lapiz",
+          "cantidad": 23,
+          "precio": 1.5
+        }
+      ]
+    },
+    {
+      "nombre": "Juan",
+      "fecha": "25-01-22",
+      "productos": [
+        {
+          "producto": "lapiz",
+          "cantidad": 10,
+          "precio": 2
+        }
+      ]
+    },
+    {
+      "nombre": "Tomas",
+      "fecha": "25-01-22",
+      "productos": [
+        {
+          "producto": "cuaderno",
+          "cantidad": 1,
+          "precio": 3.4
+        }
+      ]
+    },
+    {
+      "nombre": "Tomas",
+      "fecha": "25-01-22",
+      "productos": [
+        {
+          "producto": "goma",
+          "cantidad": 45,
+          "precio": 1.0
+        },
+        {
+          "producto": "boligrafo",
+          "cantidad": 34,
+          "precio": 2.3
+        }
+      ]
+    }
+  ],
+  "usuarios": [
+    {
+      "usuario": "pepe",
+      "password": "78d8045d684abd2eece923758f3cd781489df3a48e1278982466017f"
+    },
+    {
+      "usuario": "tomas",
+      "password": "78d8045d684abd2eece923758f3cd781489df3a48e1278982466017f"
+    }
+  ]
+}
